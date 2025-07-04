@@ -1,0 +1,10 @@
+pandas
+numpy
+haversine
+matplotlib
+seaborn
+scikit-learn
+xgboost
+transformers
+langdetect
+torch==2.6.0
