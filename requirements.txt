@@ -3,6 +3,8 @@ numpy
 haversine
 matplotlib
 seaborn
+requests
+pillow
 scikit-learn
 xgboost
 transformers
