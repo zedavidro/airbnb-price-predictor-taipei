@@ -33,10 +33,4 @@ def evaluate_model(model, X_train, y_train, X_test, y_test, use_log=False):
         y_test_raw = y_test
         y_pred_raw = y_pred
 
-    rmse = np.sqrt(mean_squared_error(y_test_raw, y_pred_raw))
-    mape = np.mean(np.abs((y_test_raw - y_pred_raw) / y_test_raw)) * 100
-
-    print(f"RMSE: {rmse:.2f}")
-    print(f"MAPE: {mape:.2f}%")
-
     return y_test_raw, y_pred_raw
